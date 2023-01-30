@@ -6,7 +6,7 @@
     "jest": true
   },
   "plugins": ["jest"],
-  "extends": "eslint:recommended",
+  "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:react-hooks/recommended"],
   "parserOptions": {
     "ecmaVersion": 13
   },
